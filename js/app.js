@@ -143,8 +143,11 @@ var TrandingSlider = new Swiper('.tranding-slider', {
       0: {
         slidesPerView: 1,
       },
-      700: {
-        slidesPerView: 2, 
+      450: {
+        slidesPerView: 1,
+      },
+      600: {
+        slidesPerView: 1,
       },
       1000: {
         slidesPerView: 2,
@@ -156,14 +159,6 @@ var TrandingSlider = new Swiper('.tranding-slider', {
       depth: 100,
       modifier: 4.2,
     },
-    // pagination: {
-    //   el: '.swiper-pagination',
-    //   clickable: true,
-    // },
-    // navigation: {
-    //   nextEl: '.swiper-button-next',
-    //   prevEl: '.swiper-button-prev',
-    // }
   });
 
   //PETIT ECRAN 
